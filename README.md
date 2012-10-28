@@ -66,3 +66,4 @@ removes the cache
 
 - redis transport
 - fs transport
+- aws transport
