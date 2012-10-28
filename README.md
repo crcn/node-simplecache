@@ -67,3 +67,4 @@ removes the cache
 - redis transport
 - fs transport
 - aws transport (implement node-bucket)
+- in-memory cache which persists to another bucket
