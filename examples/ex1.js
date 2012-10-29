@@ -17,6 +17,6 @@ function loadCache(fn) {
 }
 
 for(var i = 4; i--;)
-content.get({ key: "name2", ttl: 1000 * 5 }, onCache, loadCache);
-content.get({ key: "name3", ttl: 1000 * 5 }, onCache, loadCache);
-content.get({ key: "name3", ttl: 1000 * 5 }, onCache, loadCache);
+content.get({ key: "name2", ttl: 5 }, onCache, loadCache);
+content.get({ key: "name3", ttl: 5 }, onCache, loadCache);
+content.get({ key: "name3", ttl: 5 }, onCache, loadCache);

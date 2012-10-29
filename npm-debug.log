@@ -1,0 +1,109 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/n/versions/0.8.14/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.1.63
+3 info using node@v0.8.14
+4 verbose publish [ '.' ]
+5 verbose read json /Users/craigcondon/Developer/Public/node-simplecache/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /var/root/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/root/tmp/npm-22654/1351473323025-0.46384462085552514/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/root/tmp/npm-22654/1351473323025-0.46384462085552514/tmp.tgz
+14 verbose folder .
+15 info prepublish simplecache@0.0.1
+16 silly lockFile 430e0663-3025-0-46384462085552514-tmp-tgz /var/root/tmp/npm-22654/1351473323025-0.46384462085552514/tmp.tgz
+17 verbose lock /var/root/tmp/npm-22654/1351473323025-0.46384462085552514/tmp.tgz /var/root/.npm/430e0663-3025-0-46384462085552514-tmp-tgz.lock
+18 silly lockFile 430e0663-3025-0-46384462085552514-tmp-tgz /var/root/tmp/npm-22654/1351473323025-0.46384462085552514/tmp.tgz
+19 verbose tar unpack /var/root/tmp/npm-22654/1351473323025-0.46384462085552514/tmp.tgz
+20 silly lockFile bc1345e2-3025-0-46384462085552514-package /var/root/tmp/npm-22654/1351473323025-0.46384462085552514/package
+21 verbose lock /var/root/tmp/npm-22654/1351473323025-0.46384462085552514/package /var/root/.npm/bc1345e2-3025-0-46384462085552514-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry .npmignore
+25 silly gunzTarPerm extractEntry README.md
+26 silly gunzTarPerm extractEntry examples/ex1.js
+27 silly gunzTarPerm extractEntry lib/index.js
+28 silly gunzTarPerm extractEntry lib/transports/mongodb/bucket.js
+29 silly gunzTarPerm extractEntry lib/transports/mongodb/index.js
+30 silly gunzTarPerm extractEntry lib/transports/mongodb/schema.js
+31 silly gunzTarPerm extractEntry lib/wrappers/bucket.js
+32 silly gunzTarPerm extractEntry lib/wrappers/transport.js
+33 verbose read json /var/root/tmp/npm-22654/1351473323025-0.46384462085552514/package/package.json
+34 silly lockFile bc1345e2-3025-0-46384462085552514-package /var/root/tmp/npm-22654/1351473323025-0.46384462085552514/package
+35 verbose from cache /var/root/tmp/npm-22654/1351473323025-0.46384462085552514/package/package.json
+36 verbose tar pack [ '/var/root/.npm/simplecache/0.0.1/package.tgz',
+36 verbose tar pack   '/var/root/tmp/npm-22654/1351473323025-0.46384462085552514/package' ]
+37 verbose tarball /var/root/.npm/simplecache/0.0.1/package.tgz
+38 verbose folder /var/root/tmp/npm-22654/1351473323025-0.46384462085552514/package
+39 silly lockFile ae1cbbf2-pm-simplecache-0-0-1-package-tgz /var/root/.npm/simplecache/0.0.1/package.tgz
+40 verbose lock /var/root/.npm/simplecache/0.0.1/package.tgz /var/root/.npm/ae1cbbf2-pm-simplecache-0-0-1-package-tgz.lock
+41 silly lockFile ae1cbbf2-pm-simplecache-0-0-1-package-tgz /var/root/.npm/simplecache/0.0.1/package.tgz
+42 silly lockFile d32e1af6-ot-npm-simplecache-0-0-1-package /var/root/.npm/simplecache/0.0.1/package
+43 verbose lock /var/root/.npm/simplecache/0.0.1/package /var/root/.npm/d32e1af6-ot-npm-simplecache-0-0-1-package.lock
+44 silly lockFile d32e1af6-ot-npm-simplecache-0-0-1-package /var/root/.npm/simplecache/0.0.1/package
+45 verbose tar unpack /var/root/.npm/simplecache/0.0.1/package.tgz
+46 silly lockFile d32e1af6-ot-npm-simplecache-0-0-1-package /var/root/.npm/simplecache/0.0.1/package
+47 verbose lock /var/root/.npm/simplecache/0.0.1/package /var/root/.npm/d32e1af6-ot-npm-simplecache-0-0-1-package.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 silly gunzTarPerm extractEntry package.json
+50 silly gunzTarPerm extractEntry .npmignore
+51 silly gunzTarPerm extractEntry README.md
+52 silly gunzTarPerm extractEntry examples/ex1.js
+53 silly gunzTarPerm extractEntry lib/index.js
+54 silly gunzTarPerm extractEntry lib/transports/mongodb/bucket.js
+55 silly gunzTarPerm extractEntry lib/transports/mongodb/index.js
+56 silly gunzTarPerm extractEntry lib/transports/mongodb/schema.js
+57 silly gunzTarPerm extractEntry lib/wrappers/bucket.js
+58 silly gunzTarPerm extractEntry lib/wrappers/transport.js
+59 verbose read json /var/root/.npm/simplecache/0.0.1/package/package.json
+60 silly lockFile d32e1af6-ot-npm-simplecache-0-0-1-package /var/root/.npm/simplecache/0.0.1/package
+61 silly shasum updated bytes 2746
+62 info shasum 74e9fa77a4bcbc5109c4185d4e585ad598a21158
+62 info shasum /var/root/.npm/simplecache/0.0.1/package.tgz
+63 verbose from cache /var/root/.npm/simplecache/0.0.1/package/package.json
+64 verbose chmod /var/root/.npm/simplecache/0.0.1/package.tgz 644
+65 verbose chown /var/root/.npm/simplecache/0.0.1/package.tgz [ 0, 0 ]
+66 silly lockFile 3a52ce78- .
+67 silly publish { name: 'simplecache',
+67 silly publish   version: '0.0.1',
+67 silly publish   description: '- supports multiple transports (mongodb, redis, fs)',
+67 silly publish   main: './lib/index.js',
+67 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+67 silly publish   dependencies: { outcome: '0.0.x', structr: '0.2.x', mongoose: '3.3.x' },
+67 silly publish   repository:
+67 silly publish    { type: 'git',
+67 silly publish      url: 'https://crcn:KQ3Lz6ca@github.com/crcn/node-simplecache' },
+67 silly publish   author: '',
+67 silly publish   license: 'BSD',
+67 silly publish   readme: '### Features\n\n- supports multiple transports (mongodb, redis, fs)\n\n\n### Example\n\n```javascript\nvar request = require("request");\nvar simplecache = require("simplecache").connect({\n  type: "mongodb",\n  connection: mongodbConnection\n});\n\nvar articles = simplecache.bucket("articles");\n\nfunction onContent(err, content) {\n  console.log(content);\n}\n\nfunction loadContent(callback) {\n  request("http://google.com", callback);\n}\n\n//load content the first time\narticles.get({ key: "https://google.com", ttl: 3600 }, callback, loadContent);\n\n//don\'t load content the second time\narticles.get({ key: "https://google.com", ttl: 3600 }, callback, loadContent);\n```\n\n## API\n\n### cacher simplecache.connect(options)\n\nconnects to the target cache transport\n\n- `options` - needed for connecting\n  - `type` - type of connection (redis, fs, mongodb)\n  - `connection` - (mongodb) connection\n\n### cache cacher.bucket(name)\n\nreturns a cache bucket\n\n### cache.get(options, onCache, loadCache)\n\nreturns cache, or loads it if it doesn\'t exist\n\n- `options` - options for finding the cached data\n  - `key` - used to find the cache\n  - `ttl` - time to live\n- `onCache` - called if the cache exists, and loads\n- `loadCahe` - called when the cache doesn\'t exist, or has expired\n\n### cache.put(options, loadCache)\n\nloads the cache\n\n### cache.del(options, onDeleted)\n\nremoves the cache\n\n\n## TODO\n\n- redis transport\n- fs transport\n- aws transport (implement node-bucket)\n- in-memory cache which persists to another bucket',
+67 silly publish   _id: 'simplecache@0.0.1',
+67 silly publish   dist: { shasum: '74e9fa77a4bcbc5109c4185d4e585ad598a21158' } }
+68 verbose url raw simplecache
+69 verbose url resolving [ 'https://registry.npmjs.org/', './simplecache' ]
+70 verbose url resolved https://registry.npmjs.org/simplecache
+71 info trying registry request attempt 1 at 20:15:23
+72 http PUT https://registry.npmjs.org/simplecache
+73 http 409 https://registry.npmjs.org/simplecache
+74 verbose url raw simplecache
+75 verbose url resolving [ 'https://registry.npmjs.org/', './simplecache' ]
+76 verbose url resolved https://registry.npmjs.org/simplecache
+77 info trying registry request attempt 1 at 20:15:25
+78 http GET https://registry.npmjs.org/simplecache
+79 http 200 https://registry.npmjs.org/simplecache
+80 error publish fail Cannot publish over existing version.
+80 error publish fail Bump the 'version' field, set the --force flag, or
+80 error publish fail     npm unpublish 'simplecache@0.0.1'
+80 error publish fail and try again
+81 error System Darwin 10.7.0
+82 error command "/usr/local/n/versions/0.8.14/bin/node" "/usr/local/bin/npm" "publish"
+83 error cwd /Users/craigcondon/Developer/Public/node-simplecache
+84 error node -v v0.8.14
+85 error npm -v 1.1.63
+86 error code EPUBLISHCONFLICT
+87 verbose exit [ 1, true ]
