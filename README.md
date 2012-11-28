@@ -18,15 +18,15 @@ function onContent(err, content) {
   console.log(content);
 }
 
-function loadContent(callback) {
-  request("http://google.com", callback);
+function loadContent(onContent) {
+  request("http://google.com", onContent);
 }
 
 //load content the first time
-articles.get({ key: "https://google.com", ttl: 3600 }, callback, loadContent);
+articles.get({ key: "https://google.com", ttl: 3600 }, loadContent, onContent);
 
 //don't load content the second time
-articles.get({ key: "https://google.com", ttl: 3600 }, callback, loadContent);
+articles.get({ key: "https://google.com", ttl: 3600 }, loadContent, onContent);
 ```
 
 ## API
